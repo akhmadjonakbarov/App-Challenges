@@ -50,6 +50,10 @@ fun ThousandSeparator(modifier: Modifier = Modifier) {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Text(
+                "Thousand Separator",
+                style = MaterialTheme.typography.headlineLarge
+            )
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
